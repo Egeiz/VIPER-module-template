@@ -12,13 +12,14 @@ protocol ___VARIABLE_moduleNameIdentifier___ViewProtocol: class {
     
 }
 
-class ___VARIABLE_moduleNameIdentifier___ViewController : UIViewController{
+class ___VARIABLE_moduleNameIdentifier___ViewController: UIViewController {
     
     var presenter: ___VARIABLE_moduleNameIdentifier___PresenterProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        _ = presenter.loadViewModel()
     }
 }
 

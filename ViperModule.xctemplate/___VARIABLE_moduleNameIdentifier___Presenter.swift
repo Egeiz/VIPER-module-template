@@ -10,6 +10,10 @@ import UIKit
 
 protocol ___VARIABLE_moduleNameIdentifier___PresenterProtocol: class {
     
+    /// This method loads the view model.
+    ///
+    /// - Returns: ___VARIABLE_moduleNameIdentifier___ViewModel
+    func loadViewModel() -> ___VARIABLE_moduleNameIdentifier___ViewModel
 }
 
 class ___VARIABLE_moduleNameIdentifier___Presenter {
@@ -22,4 +26,7 @@ class ___VARIABLE_moduleNameIdentifier___Presenter {
 
 extension ___VARIABLE_moduleNameIdentifier___Presenter: ___VARIABLE_moduleNameIdentifier___PresenterProtocol {
     
+    func loadViewModel() -> ___VARIABLE_moduleNameIdentifier___ViewModel {
+        return interactor.loadViewModel()
+    }
 }

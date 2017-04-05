@@ -10,6 +10,10 @@ import UIKit
 
 protocol ___VARIABLE_moduleNameIdentifier___InteractorProtocol {
     
+    /// This method loads the view model.
+    ///
+    /// - Returns: ___VARIABLE_moduleNameIdentifier___ViewModel
+    func loadViewModel() -> ___VARIABLE_moduleNameIdentifier___ViewModel
 }
 
 class ___VARIABLE_moduleNameIdentifier___Interactor {
@@ -19,5 +23,9 @@ class ___VARIABLE_moduleNameIdentifier___Interactor {
 }
 
 extension ___VARIABLE_moduleNameIdentifier___Interactor: ___VARIABLE_moduleNameIdentifier___InteractorProtocol {
+       
+    func loadViewModel() -> ___VARIABLE_moduleNameIdentifier___ViewModel {
+        return ___VARIABLE_moduleNameIdentifier___ViewModel()
+    }
     
 }

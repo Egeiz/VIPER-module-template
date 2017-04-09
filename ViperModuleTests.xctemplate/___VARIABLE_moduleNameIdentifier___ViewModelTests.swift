@@ -9,7 +9,7 @@
 import XCTest
 @testable import ___PROJECTNAME___
 
-class ___VARIABLE_moduleNameIdentifier___DataManagerTests: XCTestCase {
+class ___VARIABLE_moduleNameIdentifier___ViewModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,8 +21,9 @@ class ___VARIABLE_moduleNameIdentifier___DataManagerTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
+    func testViewModel() {
+        //_ = ___VARIABLE_moduleNameIdentifier___ViewModel()
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
 }

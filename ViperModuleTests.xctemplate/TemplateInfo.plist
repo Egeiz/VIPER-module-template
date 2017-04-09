@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>ModuleName</string>
+			<key>Description</key>
+			<string>This is the description of the option.</string>
+			<key>Identifier</key>
+			<string>moduleNameIdentifier</string>
+			<key>Name</key>
+			<string>Please enter the name of the VIPER module:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Creates a Viper module with ViewController, Presenter, Interactor, Wireframe, Datamanager and ModuleBuilder</string>
+	<key>Summary</key>
+	<string>An empty Swift file</string>
+	<key>SortOrder</key>
+	<string>5</string>
+	<key>MainTemplateFile</key>
+	<string>Readme.md</string>
+</dict>
+</plist>
